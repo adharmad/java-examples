@@ -1,0 +1,14 @@
+Programming using DND:-
+It is like programming any other GUI feature. There are events and listeners.
+Drag start events, drag source events and drop events. To play with these,
+we need to implement the corresponding listener interfaces. 
+eg - To respond to a dropped object, create an event handler that 
+implements the DropTargetListener interface.
+
+There are 3 mail sources to work with -
+1) A drop target - Accepts an incoming drag. The process of accepting the
+   dragged information generates a series of events that you can respond to.
+2) A drag recognizer - An event adapter that listens for events that indicate
+   that a drag has started.
+3) A drag source - 
+
