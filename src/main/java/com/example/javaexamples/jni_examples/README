@@ -1,0 +1,14 @@
+Compile the java program
+javac HelloWorld.java
+
+Generate the .h file
+javah -jni HelloWorld
+
+To generate position independant code -
+gcc -fpic -c -I/usr/local/j2sdk/include/ -I/usr/local/j2sdk/include/linux *.c 
+
+To generate shared library for jni -
+gcc -fpic -shared -o libName.so *.o
+
+To run -
+java -Djava.library.path=. HelloWorld
