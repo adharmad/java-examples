@@ -1,4 +1,4 @@
-package javasamples.reflection;
+package com.example.javaexamples.reflection;
 
 import java.io.File;
 import java.io.FileInputStream;
