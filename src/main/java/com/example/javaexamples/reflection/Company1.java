@@ -6,24 +6,14 @@ import java.util.List;
 /**
  * @author Amol Dharmadhikari
  */
-public class Company {
+public class Company1 {
     private String name;
     private String regNo;
     private int revenue;
-    private CEO ceo;
-    private List<Department> departments;
+    private CEO1 ceo;
+    private List<Department1> departments;
 
-    public Company() {
-        name = "foo";
-        regNo = "100";
-        revenue = 10;
-
-        for (int i=0 ; i< 5 ; i++) {
-            Department department = new Department("dept" + i, "country" + i);
-            getDepartments().add(department);
-        }
-
-        ceo = new CEO();
+    public Company1() {
     }
 
     public String getName() {
@@ -51,24 +41,24 @@ public class Company {
     }
 
 
-    public CEO getCeo() {
+    public CEO1 getCeo() {
         return ceo;
     }
 
-    public void setCeo(CEO ceo) {
+    public void setCeo(CEO1 ceo) {
         this.ceo = ceo;
     }
 
-    public List<Department> getDepartments() {
+    public List<Department1> getDepartments() {
         if (departments == null) {
-            departments = new ArrayList<Department>();
+            departments = new ArrayList<Department1>();
         }
         return this.departments;
     }
 
     @Override
     public String toString() {
-        return "Company{" +
+        return "Company1{" +
                 "name='" + name + '\'' +
                 ", regNo='" + regNo + '\'' +
                 ", revenue=" + revenue +

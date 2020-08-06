@@ -18,6 +18,7 @@ public class Zoo {
         boo = "world";
         too = "take this";
         embObj = new EmbObj();
+        lstTypeObj = new LstTypeObj();
     }
 
     public EmbObj getEmbObj() {
@@ -74,6 +75,14 @@ public class Zoo {
 
     public void setNumBacteria(double numBacteria) {
         this.numBacteria = numBacteria;
+    }
+
+    public LstTypeObj getLstTypeObj() {
+        return lstTypeObj;
+    }
+
+    public void setLstTypeObj(LstTypeObj lstTypeObj) {
+        this.lstTypeObj = lstTypeObj;
     }
 
     @Override

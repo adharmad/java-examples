@@ -3,18 +3,13 @@ package com.example.javaexamples.reflection;
 /**
  * @author Amol Dharmadhikari
  */
-public class CEO {
+public class CEO1 {
     private String first;
     private String last;
     private int salary;
     private  Zoo zoo;
 
-    public CEO() {
-        first = "CEOFirst";
-        last = "CEOLast";
-        salary = 100;
-
-        zoo = new Zoo();
+    public CEO1() {
     }
 
     public String getFirst() {
@@ -51,7 +46,7 @@ public class CEO {
 
     @Override
     public String toString() {
-        return "CEO{" +
+        return "CEO1{" +
                 "first='" + first + '\'' +
                 ", last='" + last + '\'' +
                 ", salary=" + salary +

@@ -3,16 +3,14 @@ package com.example.javaexamples.reflection;
 /**
  * @author Amol Dharmadhikari (adharmad@ionate.io)
  */
-public class Department {
+public class Department1 {
     private String deptName;
     private String deptCountry;
 
-    public Department() {
-        deptName = "hello";
-        deptCountry = "US";
+    public Department1() {
     }
 
-    public Department(String deptName, String deptCountry) {
+    public Department1(String deptName, String deptCountry) {
         this.deptName = deptName;
         this.deptCountry = deptCountry;
     }
@@ -35,7 +33,7 @@ public class Department {
 
     @Override
     public String toString() {
-        return "Department{" +
+        return "Department1{" +
                 "deptName='" + deptName + '\'' +
                 ", deptCountry='" + deptCountry + '\'' +
                 '}';

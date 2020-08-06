@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Amol Dharmadhikari (adharmad@ionate.io)
+ * @author Amol Dharmadhikari
  */
 public class Company {
     private String name;
@@ -17,6 +17,13 @@ public class Company {
         name = "foo";
         regNo = "100";
         revenue = 10;
+
+        for (int i=0 ; i< 5 ; i++) {
+            Department department = new Department("dept" + i, "country" + i);
+            getDepartments().add(department);
+        }
+
+        ceo = new CEO();
     }
 
     public String getName() {

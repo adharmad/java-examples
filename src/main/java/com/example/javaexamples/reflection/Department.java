@@ -12,6 +12,11 @@ public class Department {
         deptCountry = "US";
     }
 
+    public Department(String deptName, String deptCountry) {
+        this.deptName = deptName;
+        this.deptCountry = deptCountry;
+    }
+
     public String getDeptName() {
         return deptName;
     }

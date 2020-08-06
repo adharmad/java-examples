@@ -1,7 +1,7 @@
 package com.example.javaexamples.reflection;
 
 /**
- * @author Amol Dharmadhikari (adharmad@ionate.io)
+ * @author Amol Dharmadhikari
  */
 public class CEO {
     private String first;
@@ -13,6 +13,8 @@ public class CEO {
         first = "CEOFirst";
         last = "CEOLast";
         salary = 100;
+
+        zoo = new Zoo();
     }
 
     public String getFirst() {
