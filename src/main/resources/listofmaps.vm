@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Velocity2</title>
+    </head>
+    <body>
+
+    <table>
+    <tr>
+        <td>first col</td>
+        <td>second col</td>
+        <td>third col</td>
+    </tr>
+    #foreach ($elem in $lst)
+    <tr>
+        #foreach( $key in $elem.keySet() )
+        <td>$elem.get($key)</td>
+        #end
+    </tr>
+    #end
+    </table>
+    </body>
+</html>

@@ -4,16 +4,17 @@ package com.example.javaexamples.javaparser;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sun.source.tree.ExpressionTree;
-import com.sun.source.tree.MethodTree;
-import com.sun.source.tree.VariableTree;
-import com.sun.source.util.TreeScanner;
+//import com.sun.source.tree.ExpressionTree;
+//import com.sun.source.tree.MethodTree;
+//import com.sun.source.tree.VariableTree;
+//import com.sun.source.util.TreeScanner;
 
 /**
  * @author Amol Dharmadhikari (adharmad@ionate.io)
  */
-public class JavaSourceVisitor extends TreeScanner {
+public class JavaSourceVisitor { //extends TreeScanner {
 
+    /*
     private List methodList = new ArrayList();
     private List varList = new ArrayList();
     private boolean inMethod = false;
@@ -30,7 +31,6 @@ public class JavaSourceVisitor extends TreeScanner {
     @Override
     public Object visitMethod(MethodTree mt, Object obj) {
 
-/*
         if(mt!=null)
         {
             JavaMethodDTO javaMethodDto = new JavaMethodDTO();
@@ -93,13 +93,11 @@ public class JavaSourceVisitor extends TreeScanner {
             System.out.println(obj.toString());
         }
 
- */
-
-        inMethod = true;
-        Object o = super.visitMethod(mt, obj);
-        if (o != null) {
-            System.out.println(o.getClass().getName());
-        }
+//        inMethod = true;
+//        Object o = super.visitMethod(mt, obj);
+//        if (o != null) {
+//            System.out.println(o.getClass().getName());
+//        }
         inMethod = false;
 
         return o;
@@ -126,5 +124,6 @@ public class JavaSourceVisitor extends TreeScanner {
 
         return super.visitVariable(vt, arg1);
     }
+    */
 
 }

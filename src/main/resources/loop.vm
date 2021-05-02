@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <title>Velocity2</title>
+    </head>
+    <body>
+
+    <ul>
+    #foreach( $key in $allProducts.keySet() )
+        <li>Key: $key -> Value: $allProducts.get($key)</li>
+    #end
+    </ul>
+    </body>
+</html>

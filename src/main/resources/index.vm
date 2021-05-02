@@ -1,0 +1,10 @@
+<html>
+    <head>
+        <title>Velocity</title>
+    </head>
+    <body>
+        <div>
+        Hello, $name!
+        </div>
+    </body>
+</html>

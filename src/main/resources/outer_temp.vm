@@ -1,0 +1,4 @@
+This is the outer velocity template.
+Beginning $name1.
+#parse( "inner_temp.vm" )
+Ending $name2.

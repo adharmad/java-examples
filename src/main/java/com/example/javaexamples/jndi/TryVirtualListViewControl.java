@@ -9,11 +9,12 @@ import javax.naming.ldap.Control;
 import javax.naming.ldap.InitialLdapContext;
 import javax.naming.ldap.LdapContext;
 
-import com.sun.jndi.ldap.ctl.SortControl;
-import com.sun.jndi.ldap.ctl.VirtualListViewControl;
-import com.sun.jndi.ldap.ctl.VirtualListViewResponseControl;
+//import com.sun.jndi.ldap.ctl.SortControl;
+//import com.sun.jndi.ldap.ctl.VirtualListViewControl;
+//import com.sun.jndi.ldap.ctl.VirtualListViewResponseControl;
 
 public class TryVirtualListViewControl {
+	/*
 	public static void main(String[] args) throws Exception {
 
 		// Set up environment for creating initial context
@@ -85,4 +86,5 @@ public class TryVirtualListViewControl {
 
 		return true;
 	}
+	*/
 }

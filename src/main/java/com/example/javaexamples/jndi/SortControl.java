@@ -1,9 +1,9 @@
 package com.example.javaexamples.jndi;
 
-import java.util.Enumeration; 
-import java.util.Iterator; 
-import com.sun.jndi.ldap.*;
-import java.io.UnsupportedEncodingException;
+//import java.util.Enumeration;
+//import java.util.Iterator;
+//import com.sun.jndi.ldap.*;
+//import java.io.UnsupportedEncodingException;
 
 public class SortControl {
 

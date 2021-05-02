@@ -77,6 +77,22 @@
             <version>2.8.0</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.velocity/velocity -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.ldap</groupId>
+            <artifactId>ldapbp</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/ldapbp.jar</systemPath>
+        </dependency>
+
+
     </dependencies>
 
     <build>
