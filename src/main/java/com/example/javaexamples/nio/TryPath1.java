@@ -1,4 +1,4 @@
-package com.example.javaexamples.filenio2;
+package com.example.javaexamples.nio;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
