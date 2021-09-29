@@ -1,7 +1,7 @@
 package com.example.javaexamples.reflection;
 
-import org.apache.commons.lang.reflect.FieldUtils;
-import org.apache.commons.lang.reflect.MethodUtils;
+import org.apache.commons.lang3.reflect.FieldUtils;
+import org.apache.commons.lang3.reflect.MethodUtils;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;

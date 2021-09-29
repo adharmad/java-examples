@@ -1,6 +1,7 @@
 package com.example.javaexamples.reflection;
 
-import org.apache.commons.lang.reflect.MethodUtils;
+
+import org.apache.commons.lang3.reflect.MethodUtils;
 
 /**
  * @author Amol Dharmadhikari (adharmad@ionate.io)
