@@ -8,15 +8,15 @@ import java.util.List;
 import org.apache.commons.jxpath.JXPathContext;
 import org.apache.commons.jxpath.Pointer;
 
-import javax.xml.bind.JAXBElement;
+//import javax.xml.bind.JAXBElement;
 import javax.xml.namespace.QName;
 
 public class TryJXPath1 {
     public static void main(String[] args) {
-        Company company = new Company("Acme");
-        company.setLocation("somewhere");
-        company.setPlace("somewhere");
-        company.setpCodErro(new JAXBElement<String>(QName.valueOf("http://string"), String.class, "hello"));
+//        Company company = new Company("Acme");
+//        company.setLocation("somewhere");
+//        company.setPlace("somewhere");
+        //company.setpCodErro(new JAXBElement<String>(QName.valueOf("http://string"), String.class, "hello"));
 
         List departments = new ArrayList();
         departments.add(new Department("Sales"));
@@ -34,16 +34,16 @@ public class TryJXPath1 {
         employees.add(new Employee("Susan", "Office assistant", 27));
         ((Department) departments.get(1)).setEmployees(employees);
 
-        company.setDepartmentList(departments);
+        //company.setDepartmentList(departments);
 
-        JXPathContext context = JXPathContext.newContext(company);
+        //JXPathContext context = JXPathContext.newContext(company);
 
         //Simple JXPath queries
         //Company c = (Company) context.getValue(".");
         //System.out.println(c);
 
-        String name = (String) context.getValue("/name");
-        System.out.println(name);
+//        String name = (String) context.getValue("/name");
+//        System.out.println(name);
 
         // filter
 //        boolean isAcme = (boolean)context.getValue("/name = 'Acme'");
@@ -66,9 +66,9 @@ public class TryJXPath1 {
 //        System.out.println(ret1);
 
 
-        // qname based filter
-        boolean ret2 = (boolean)context.getValue("/pCodErro = 'hello'");
-        System.out.println(ret2);
+//        // qname based filter
+//        boolean ret2 = (boolean)context.getValue("/pCodErro = 'hello'");
+//        System.out.println(ret2);
 
         /*
         //Using predicates

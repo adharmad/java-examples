@@ -1,12 +1,12 @@
 package com.example.javaexamples.xml;
 
-import javax.xml.bind.annotation.XmlElement;
+//import javax.xml.bind.annotation.XmlElement;
 import java.util.List;
 
 public class DBObj {
-    @XmlElement(name = "p_credencial", required = true, nillable = true)
+    //@XmlElement(name = "p_credencial", required = true, nillable = true)
     protected String pCredencial;
-    @XmlElement(name = "p_cursor", nillable = true)
+    //@XmlElement(name = "p_cursor", nillable = true)
     protected List<CursorObj> pCursor;
 
     public DBObj() {
