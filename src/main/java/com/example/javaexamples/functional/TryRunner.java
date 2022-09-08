@@ -13,9 +13,20 @@ public class TryRunner {
 
         Runner anotherRunner = () -> doSomething();
         anotherRunner.run();
+
+        new TryRunner().runAgain();
+    }
+
+    public void runAgain() {
+        Runner anotherRunner = () -> doSomethingElse();
+        anotherRunner.run();
     }
 
     public static void doSomething() {
         System.out.println("something");
+    }
+
+    public void doSomethingElse() {
+        System.out.println("somethingElse");
     }
 }
