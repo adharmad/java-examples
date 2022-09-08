@@ -8,7 +8,8 @@ public interface MyRunner {
         try {
             this.run();
         } catch (Exception e) {
-            e.printStackTrace();
+            //e.printStackTrace();
+            throw e;
         }
     }
 }

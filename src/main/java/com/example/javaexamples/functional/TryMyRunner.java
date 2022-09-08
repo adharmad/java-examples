@@ -5,8 +5,8 @@ public class TryMyRunner {
         MyRunner myRunner = () -> doSomething();
         myRunner.invoke();
 
-        TryMyRunner tryMyRunner = new TryMyRunner();
-        tryMyRunner.runAgain();
+//        TryMyRunner tryMyRunner = new TryMyRunner();
+//        tryMyRunner.runAgain();
     }
 
     public static void doSomething() {
@@ -19,11 +19,8 @@ public class TryMyRunner {
         anotherRunner.invoke();
     }
 
-    public void callme() {
-        System.out.println("callme");
-    }
-
     public void doSomethingElse() {
         System.out.println("somethingElse");
+        throw new RuntimeException("hellohello");
     }
 }
