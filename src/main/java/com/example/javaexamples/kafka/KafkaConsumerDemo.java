@@ -14,8 +14,8 @@ import java.util.Properties;
 public class KafkaConsumerDemo {
     public static void main(String[] args) {
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "test-group-id";
-        String topic = "first_topic";
+        String groupId = "test-group-id003";
+        String topic = "QUEUE_NAME";
 
         // create consumer config
         Properties properties = new Properties();
