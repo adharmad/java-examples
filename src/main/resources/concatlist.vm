@@ -1,0 +1,16 @@
+This is the passlist velocity template.
+
+This is a list $lst.
+
+#set( $csvAttributes = "" )
+
+#foreach( $element in $lst )
+    #set( $csvAttributes = "${csvAttributes}${element}" )
+    #if( $foreach.hasNext )
+        #set( $csvAttributes = "${csvAttributes}," )
+    #end
+#end
+
+Concatenated list is: $csvAttributes
+
+The end.

@@ -1,0 +1,10 @@
+This is the passobject velocity template.
+
+Passing object sampleobj1.
+
+Var1 = $sampleobj1.getVar1()
+Var2 = $sampleobj1.getVar2()
+Var3 = $sampleobj1.getVar3()
+
+
+The end.

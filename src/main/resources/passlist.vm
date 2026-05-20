@@ -1,0 +1,12 @@
+This is the passlist velocity template.
+Hello Mr. $name1.
+
+This is a list $my_list.
+
+#if ($my_list.contains("hello"))
+Yes contains hello.
+#else
+No does not contain hello.
+#end
+
+The end.
