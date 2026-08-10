@@ -33,10 +33,10 @@ public class AESEnc {
         IvParameterSpec ivParameterSpec = generateIvWellKnown();
         String algorithm = "AES/CBC/PKCS5Padding";
         String cipherText = encrypt(algorithm, input, key, ivParameterSpec);
-        System.out.println(cipherText);
+        System.out.println("cipher text = " + cipherText);
 
         String plainText = decrypt(algorithm, cipherText, originalKey, ivParameterSpec);
-        System.out.println(plainText);
+         System.out.println("plain text = " + plainText);
     }
 
     public static String encrypt(String algorithm, String input, SecretKey key,
